@@ -1,5 +1,5 @@
 ---
-title: vue/vue-router-history-mode-iis-config
+title: VueRouter history mode iis config
 published: 2021-07-25
 description: ''
 image: ''
