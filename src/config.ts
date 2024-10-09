@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: 'https://oss.kuriyama.top/img/march7/march7-night.jpg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    src: 'https://img.kuriyama.top/march7-night.webp',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'top', // Equivalent to object-position, defaults center
   },
   favicon: [    // Leave this array empty to use the default favicon
@@ -42,7 +42,7 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'https://oss.kuriyama.top/img/march7/March7.webp',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: 'https://img.kuriyama.top/March7.webp',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'Qian Shi',
   bio: '这个人什么也没说',
   links: [
