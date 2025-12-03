@@ -48,7 +48,7 @@ openssl x509 -req -days 3650 -in server.csr -signkey private.key -out cert.crt -
 
 ### 4.转换为PKCS12格式 `cert.p12`
 ``` cmd
-openssl pkcs12 -export -in server.crt -inkey server.key -out server.p12 -name "server"
+openssl pkcs12 -export -in cert.crt -inkey private.key -out server.p12 -name "server"
 ```
 
 ### 5.安装证书到客户端
